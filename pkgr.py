@@ -9,7 +9,7 @@ if argv[1]=="-a":
 if argv[1]=="-r":
   pkgname = str(argv[2])
   print("Removing "+pkgname+"...")
-  pkglist.del(pkgname)
+  pkglist.remove(pkgname)
 if argv[1]=="-l":
   for x in pkglist:
     print(x+"\n")
